@@ -1,0 +1,74 @@
+/* tour-details.css */
+
+.tour-details {
+    padding: 40px 0;
+}
+
+.tour__content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tour__info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tour__details span {
+    font-size: 16px;
+    color: #333;
+}
+
+.tour__info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.booking-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.tour-reviews {
+    margin-top: 30px;
+}
+
+.tour-reviews h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.review {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.review p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.review strong {
+    color: #000;
+}

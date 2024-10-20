@@ -1,0 +1,33 @@
+.masonary__img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.masonary__img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.masonry__container {
+    padding: 2rem 0;
+}
+
+@media (max-width: 900px) {
+    .masonary__img {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .masonary__img {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .masonary__img {
+        margin-bottom: 1rem;
+    }
+}
